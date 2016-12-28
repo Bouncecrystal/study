@@ -1,0 +1,12 @@
+（1）git branch 　查看本地分支
+（2）git branch -a? 　　　　? 查看远程分支
+（3）git checkout? branchname?????? 切换分支　
+（4）git add　yourfile　　　　? 
+（5）git commit -a -m "描述"　　??? 提交你当前开发到暂存区，可以理解为你本地的GIT库
+（6）git pull　? 更新，如果几个人同时在一个分枝上开发，可能会造成不同步，造成自己本地的GIT库落后或提前远程GIT库，这时候就要更新自己本地的库。
+（7）git push　提交，将自己开发的代码提交到对应的远程分之上去
+（8）git status? 查看工作区状态，及查看在此分支上进行了那些操作
+（9）git log　　查看操作日志，还是挺有用的
+（10）git merge 合并分支，自己开发的模块最终要合并到项目的总分枝上去，这是要先切换到项目总分支，然后 git merge 自己的分支 
+（11）git branch -d/D?? yourbranch? 删除本地分支
+（12）git push origin :yourbranch??? 删除远程分支????? 
